@@ -20,7 +20,7 @@
         </div>
     </header>
     <main>
-        <section id="destination">
+        <section id="destinations">
             <h2>POPULAR FLIGHT PATHS</h2>
             <div class="grid-wrapper">
                 <article>
@@ -142,27 +142,27 @@
                 <form action="#" method="post" id="sst">
                     <fieldset>
                         <legend>IDENTITY VERIFICATION</legend>
-                        <input type="text" id="full-destination" name="full_destination">
                         <label for="full-destination">Full Destionation</label>
-                        <input type="text" id="id-code" name="id_code">
+                        <input type="text" id="full-destination" name="full_destination">
                         <label for="id-code">ID code</label>
+                        <input type="text" id="id-code" name="id_code">
                     </fieldset>
                     <fieldset>
                         <legend>FLIGHT PARAMETERS</legend>
-                        <input type="text" list="planets" id="destination-choice">
                         <label for="destination-choice">Choose a destination:</label>
+                        <input type="text" list="planets" id="destination-choice">
                         <datalist id="planets">
-                            <option value="Mars"></option>
-                            <option value="Jupiter"></option>
-                            <option value="Saturn"></option>
-                            <option value="Neptune"></option>
+                            <option value="Kepler-186f"></option>
+                            <option value="Titan Station"></option>
+                            <option value="Nebula Resort"></option>
+                            <option value="Event Horizon"></option>
                         </datalist><br>
+                        <label for="cabin-class">Cabin Class:</label>
                         <select id="cabin-class" name="cabin">
                             <option value="economy">Economy (Stasis Pod)</option>
                             <option value="business">Business (Quarters)</option>
                             <option value="first">First (Zero-G Suite)</option>
                         </select>
-                        <label for="cabin-class">Cabin Class:</label>
                     </fieldset>
                 </form>
                 <button type="submit" form="sst">AUTHORIZE CREDIT TRANSFER</button>
